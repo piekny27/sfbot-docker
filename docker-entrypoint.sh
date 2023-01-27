@@ -1,5 +1,5 @@
 #!/bin/bash
-file="MFBot_Konsole_x86_64"
+file="MFBot_Konsole_ARM64"
 if [ -f "$file" ]
 then
 	echo "$file found."
