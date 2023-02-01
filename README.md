@@ -27,10 +27,22 @@
   1. Clone repo.
   2. `cd sfbot-docker/` -> Create 'data' catalog -> `mkdir data`
   3. Copy Acc.ini file to data catalog -> `cp <PATH_TO_YOUR_ACC.INI> <PATH_TO_DATA_CATALOG>.
-  4. Make run.sh executable -> `chmod +x run.sh`
-  5. Just run run.sh script -> `./run.sh`
+  4. Build docker image -> `docker build -t sfbot .`
+  5. Make run.sh executable -> `chmod +x run.sh`
+  6. Just run run.sh script -> `./run.sh`
   
   Done :)
+
+  To stop container use:
+  `docker stop sfbot`
+
+  To start again run run.sh script in 'sfbot-docker' directory:
+  `./run.sh`
+
+  Basic docker commands:
+  ```BASH
+  docker run sfbot
+  ```
 
   ## Links
   [Magical Fidget Bot](https://www.mfbot.de/en/downloads/)
