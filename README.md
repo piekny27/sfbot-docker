@@ -39,11 +39,6 @@
   To start again run run.sh script in 'sfbot-docker' directory:
   `./run.sh`
 
-  Basic docker commands:
-  ```BASH
-  docker run sfbot
-  ```
-
   ## Links
   [Magical Fidget Bot](https://www.mfbot.de/en/downloads/)
   <br>
