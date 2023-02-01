@@ -7,11 +7,11 @@ else
 	echo "$file not found. Downloading now..."
 	sh ./downloadBot.sh
 fi
-cd /mfbot/
+cd /mfbot/data
 screen -A -m -d -S mfbot ./$file
-while [ ! -f /mfbot/logs/General.log ] ;
+while [ ! -f /mfbot/data/logs/General.log ] ;
 do
       sleep 1
 done
 sleep 5
-tail -f /mfbot/logs/*
+tail -f /mfbot/data/logs/*
