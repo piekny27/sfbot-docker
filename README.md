@@ -1,16 +1,16 @@
 <div class="logos">
   <h3><img align="center" height="100" src="https://forum.mfbot.de/styles/black/theme/images/logo.png"> MFbot in docker</h3>
   <br><br>
-  <a href="#">
-    <img alt="GitHub" src="https://img.shields.io/github/license/piekny27/sfbot-docker?style=flat-square">
-  </a>
+  
+  <img src="https://img.shields.io/badge/Platform-ARM64-green"> 
+  <img src="https://img.shields.io/github/license/piekny27/sfbot-docker?style=flat-square">
   <br>
   <br>
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> 
   <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white"> 
   <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black"> 
   <br>
-  <img src="https://img.shields.io/badge/Platform-ARM64-green"> 
+  
 </div>
 
 <div class="other">
